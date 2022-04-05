@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen 	and (max-width: 575.98px)
+				and (orientation : portrait)
+{
+	.banner > p:nth-child(4)
+	{
+		font-size: 135px;
+	}
+	.welcome
+	{
+		padding: 55px 0px;
+	}
+	.welcome-text p:nth-child(2)
+	{
+		font-size: 25px;
+	}
+	.em_bar_bg
+	{
+		margin: 20px auto;
+	}
+	.welcome-text p:nth-child(4)
+	{
+		font-size: 15px;
+	}
+	.welcome-text p:nth-child(5), .welcome-text p:nth-child(6), .welcome-text p:nth-child(7)
+	{
+		border: none;
+		padding-left: 0px;
+	}
+	#sports-carousel .owl-dots
+	{
+		position: relative;
+		top: -30px;
+	}
+	#sports-carousel .owl-dots .owl-dot span
+	{
+		width: 13px;
+		height: 6px;
+		border-radius: 5px;
+		margin: 5px;
+	}
+	.utility-info li
+	{
+		width: auto;
+	}
+}
